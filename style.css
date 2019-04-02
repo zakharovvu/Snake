@@ -1,0 +1,12 @@
+#root {
+    display: grid;
+    grid-template-columns: repeat(20, 20px);
+}
+.square {
+    min-width: 20px;
+    min-height: 20px;
+    border: 1px solid black;
+}
+.mark {
+    background: rgb(248, 3, 207);
+}
