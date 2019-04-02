@@ -23,9 +23,7 @@ class Game {
           this.arrTorns = [];
           this.positionX = 20;
           this.positionY = 10;
-            this.startGame();
-           
-         
+          this.startGame();
         }
       })
       
@@ -80,7 +78,6 @@ class Game {
   }
 
   updateLengthSnake() {
-    
       if (this.arrSnake[this.positionX][this.positionY] === true) {
           this.arrTorns.push(this.positionX + ' ' + this.positionY);
           this.arrTorns.push(this.positionX + ' ' + this.positionY);
@@ -103,7 +100,6 @@ class Game {
   }
 
   configDirection() {
-    
       switch(this.currentDirection) {
         case 'top': this.positionX--
           break;
